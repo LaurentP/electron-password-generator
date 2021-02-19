@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "electron": "electron .",
     "electron-dev": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
-    "electron-packager": "electron-packager ./ --platform=win32 --arch=ia32 --overwrite --ignore=\"(node_modules|public|src|.gitignore|README.md)\" --asar --icon=./icon.ico"
+    "electron-packager": "electron-packager ./ --platform=win32 --arch=ia32 --overwrite --ignore=\"(node_modules|public|src|.gitignore|README.md)\" --asar --icon=./icon.ico --win32metadata.CompanyName=\"\" --appCopyright=\" \""
   },
   "eslintConfig": {
     "extends": [
